@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+    <header>HTML & CSS Document</header>
+    <ul>
+        <li>
+        <a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#HTML5">HTML5</a></li>
+        <li><a class="nav-link" href="#Cascading_style_sheet">Cascading style sheet</a></li>
+        <li><a class="nav-link" href="#HTML_Elements">HTML Elements</a></li>
+        <li><a class="nav-link" href="#CSS_selectors">CSS Selectors</a></li>
+        
+    </ul>
+</nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Markup languages are ubiquitous in everyday computing. Although you may not
+                    realize it, word processing documents are filled with markup directives indicating
+                    the structure and often presentation of the document.
+             </p>
+             <p>In the case of traditional
+                word processing documents, these structural and presentational markup codes are more
+                often than not behind the scenes. However, in the case of Web documents, markup in the form
+                of traditional Hypertext Markup Language (HTML) and its Extensible Markup Language
+                (XML)-focused variant, XHTML, is a little more obvious. 
+            </p>
+            <ul>
+                <li>However, in the case of Web documents, markup in the form
+                    of traditional Hypertext Markup Language (HTML) and its Extensible Markup Language
+                    (XML)-focused variant, XHTML, is a little more obvious. 
+                </li>
+                <li>These not-so-behind-the-scenes
+                    markup languages are used to inform Web browsers about page structure and, some might
+                    argue, presentation as well.
+                </li>
+            </ul>
+            </article>
+        </section>
+        <section class="main-section" id="HTML5">
+            <header>HTML5</header>
+            <article>
+                <p>The HTML5 specification not only embraces the past, by supporting traditional
+                    HTML- and XHTML-style syntax, but also adds a wide range of new features.
+                    Although HTML5 moves forward from HTML 4, it also is somewhat of a retreat and
+                    an admission that trying to get every Web developer on the Internet to write their markup
+                    properly is a futile effort, particularly because few Web developers are actually formally
+                    trained in the technology. HTML5 tries to bring order to chaos by codifying common
+                    practices, embracing what is already implemented in browsers, and documenting how
+                    these user agents (browsers or other programs that consume Web pages) should deal with
+                    our imperfect markup.</p>
+                <ul>
+                    <li>Perhaps just to be new, HTML5 omits the space found commonly between (X)HTML and its
+                        version number, as in HTML 4 or XHTML 1.</li>
+                    <li>HTML5 is the degree of syntax variability that it allows. </li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="Cascading_style_sheet">
+            <header>Cascading Style Sheet</header>
+            <article>
+                <p>Cascading Style Sheet also known as CSS, invented by Hakon Wium Lie in October 10, 1994, is a stylesheet language used to beautiful a web page or anything that could be displayed on a web browser. CSS is called a stylesheet language because it is only useful in beautifying a document on a web browser.</p>
+                <ul>
+                    <li>Selectors are html elements or a defined class names to which a set of ess rules apply.In css,selectors are grouped majorly into four namely, Basic Selectors, Grouping Selectors, Combinators and Pseudo.</li>
+                    <li>Grouping selectors are used to group html elements or nodes so that the styling can have affect on the grouped elements. To group html elements in css, we use the comma sign</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="HTML_Elements">
+            <header>HTML Elements</header>
+            <p>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+
+            </p>
+            <code>&lt;This is a paragraph./&gt;
+                &ltThis is another paragraph./&gt;
+            </code>
+            <p>The HTML &lt;p&gt;form&lt;/p&gt element is used to create an HTML form for user input:
+
+            </p>
+            <p>An HTML element is defined by a start tag, some content, and an end tag.
+            </p>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                &lt;body&gt;
+                
+                &lt;h1&gt;My First Heading&lt;/h1&gt;
+                &lt;p&gt;My first paragraph.&lt;/p&gt;
+                
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </section>
+        <section class="main-section" id="CSS_selectors">
+            <header>CSS Selectors</header>
+            <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+                We can divide CSS selectors into five categories:</p>
+                <ul>
+                    <li>Simple selectors (select elements based on name, id, class)</li>
+                    <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+                    <li>Pseudo-class selectors (select elements based on a certain state)</li>
+                    <li>Pseudo-elements selectors (select and style a part of an element)</li>
+                    <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+                </ul>
+                <p>Here, all &lt;p> elements on the page will be center-aligned, with a red text color: 
+
+                </p>
+               <code>p {
+                text-align: center;
+                color: red;
+              }</code> 
+<p>The grouping selector selects all the HTML elements with the same style definitions.
+
+    Look at the following CSS code (the h1, h2, and p elements have the same style definitions):
+    
+    </p>
+              <code>
+                h1 {
+                    text-align: center;
+                    color: red;
+                  }
+                  
+                  h2 {
+                    text-align: center;
+                    color: red;
+                  }
+                  
+                  p {
+                    text-align: center;
+                    color: red;
+                  }
+              </code>
+              <p>CSS Comments: Comments are used to explain the code, and may help when you edit the source code at a later date.
+
+                Comments are ignored by browsers.</p>
+                <code>/* This is a single-line comment */
+                    p {
+                      color: red;
+                    }</code>
+        </section>
+        
+    
+</body>
+</html>
